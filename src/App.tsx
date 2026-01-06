@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 
-// Backend API URL - this will forward to n8n webhook
-const API_URL = "http://localhost:5000/api/leads";
+// Backend API URL - deployed Vercel backend
+const API_URL = "https://backendtest1-psi.vercel.app/api/leads";
 
 interface FormData {
   name: string;
@@ -316,3 +316,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+// lorem ipsum dolor sit amet consectetur adipisicing elit. quod, quibusdam.
